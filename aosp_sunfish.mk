@@ -72,6 +72,9 @@ PRODUCT_NAME := aosp_sunfish
 PRODUCT_DEVICE := sunfish
 PRODUCT_MODEL := Pixel 4a
 
+# Gapps
+TARGET_STOCK_GAPPS:= true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=sunfish
 
