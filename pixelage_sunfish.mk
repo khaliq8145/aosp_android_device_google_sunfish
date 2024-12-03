@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
 
 # Enable mainline checking
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
 
 #
 # All components inherited here go to system_ext image
@@ -62,6 +62,6 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := Android
-PRODUCT_NAME := aosp_sunfish
+PRODUCT_NAME := pixelage_sunfish
 PRODUCT_DEVICE := sunfish
-PRODUCT_MODEL := AOSP on sunfish
+PRODUCT_MODEL := Pixelage on sunfish
